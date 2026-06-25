@@ -2,7 +2,9 @@
 
 ## Pregunta 1: Patrón arquitectónico global
 
-**Patrón aplicado: Arquitectura Orientada a Servicios / Microservicios (SOA).**
+**Patrón aplicado: Basado en servicios**
+
+Nota: Si bien es cierto que en la ppt aparecen otros patrones en clase el profesor no explico esos, por lo que segun consulte en el laboratorio voy a colocar el que mas se adapta de los que explico
 
 La solución no es monolítica: el backend está descompuesto en **tres procesos independientes** (`eureka-server`, `pucp-validador-service`, `orquestador-service`), cada uno con su propio ciclo de vida, puerto y despliegue.
 
@@ -12,7 +14,7 @@ Hay **separación de responsabilidades**: el validador encapsula **reglas de neg
 
 Los servicios se comunican por **HTTP/REST** sobre contratos estables, lo que permite escalarlos, versionarlos o reemplazarlos independientemente.
 
-Frente a otros patrones (monolítico, capas, MVC, event-driven, pipe-and-filter), microservicios es el que mejor describe esta solución de tres binarios autocontenidos coordinados por descubrimiento.
+Por lo que al cada uno ser independiente de los otros pero al compartir la BD entonces es basado en sercicios
 
 ## Pregunta 2: Statelessness del validador
 
