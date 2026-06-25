@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686349878244",
+    "project_id": "iot-la6",
+    "storage_bucket": "iot-la6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686349878244:android:603903af26cbfefce97df1",
+        "android_client_info": {
+          "package_name": "com.example.bici_pucp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIxuNzrdCtLq0OFhkZnwLEA7YmuvzKAh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
